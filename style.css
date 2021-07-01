@@ -1,0 +1,135 @@
+h1 {
+    color: #cf7d2f;
+    padding-left: 30px;
+}
+
+.hello{
+background-color: #38aca2;
+color: cornsilk;
+display: flex;
+justify-content: space-between;
+}
+
+.hello *{
+border: solid;
+
+
+}
+
+.main{
+background-color: #a3abdd;
+
+
+}
+
+.writing{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.image{
+display: flex;
+justify-content: flex-end;
+
+}
+
+p{
+text-align: center;
+
+
+}
+
+*{
+background-color: #1c6683;
+
+
+}
+
+a:link{
+color: #ffffff;
+
+
+}
+
+a:visited{
+color: #daad19;
+
+
+}
+
+.one{
+position: relative;
+
+
+}
+
+.two{
+position: relative;
+
+}
+
+.three{
+position: relative;
+
+}
+
+.one p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0;
+}
+
+.two p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    }
+ .three p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        }
+
+.one:hover p{
+    opacity: 1;
+
+
+}        
+
+.two:hover p{
+    opacity: 1;
+
+
+}        
+
+.three:hover p{
+    opacity: 1;
+
+
+}        
+
+.one:hover img{
+opacity: 0.33;
+
+
+}
+
+.two:hover img{
+    opacity: 0.33;
+    
+    
+    }
+
+.three:hover img{
+        opacity: 0.33;
+        
+        
+        }
